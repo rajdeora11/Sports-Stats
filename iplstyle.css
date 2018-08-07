@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border: none;
+    border-bottom: 3px solid red;
+    text-transform: uppercase;
+    color: black;
+    padding: 0;
+  }
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: red; /*Sets the text hover color on navbar*/
+    }
+
+.navbar-inverse .navbar-nav > li > a {
+        color: black; /*Sets the text hover color on navbar*/
+        }
+
+#myNav {
+    background: url("images/backnav.jpg");
+    padding: 0;
+    color: black;
+}
+ 
+.container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.carousel-inner img {
+    width: 100%;
+    margin: 0;
+    min-height: 300px;
+    max-height: 550px;
+}
+
+.container-fluid {
+    background: wheat;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row .content {height: 450px}
+  
+.sidenav {
+    padding-top: 20px;
+    height: 100%;
+}
+
+.team {
+    height: 100px;
+    max-width: 150px;
+}
+
+
+footer {
+    color: grey;
+    padding: 15px;
+  }
